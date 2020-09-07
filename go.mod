@@ -5,7 +5,7 @@ go 1.13
 require (
 	contrib.go.opencensus.io/exporter/jaeger v0.2.1
 	contrib.go.opencensus.io/exporter/ocagent v0.7.0
-	contrib.go.opencensus.io/exporter/zipkin v0.1.1
+	contrib.go.opencensus.io/exporter/zipkin v0.1.2
 	github.com/UnnoTed/fileb0x v1.1.4
 	github.com/bmatcuk/doublestar v1.3.2 // indirect
 	github.com/coreos/etcd v3.3.21+incompatible // indirect
@@ -21,23 +21,24 @@ require (
 	github.com/nsf/termbox-go v0.0.0-20200418040025-38ba6e5628f1 // indirect
 	github.com/openzipkin/zipkin-go v0.2.2
 	github.com/owncloud/flaex v0.2.0
-	github.com/owncloud/ocis v1.0.0-rc1
-	github.com/owncloud/ocis-accounts v0.4.2-0.20200901074457-6a27781a2741
-	github.com/owncloud/ocis-glauth v0.5.1-0.20200731165959-1081de7c60f1
-	github.com/owncloud/ocis-graph v0.0.0-20200318175820-9a5a6e029db7
-	github.com/owncloud/ocis-graph-explorer v0.0.0-20200210111049-017eeb40dc0c
-	github.com/owncloud/ocis-hello v0.1.0-alpha1.0.20200828085053-37fcf3c8f853
+	github.com/owncloud/ocis-accounts v0.4.2-0.20200828150703-2ca83cf4ac20
+	github.com/owncloud/ocis-glauth v0.5.0
+	github.com/owncloud/ocis-graph v0.0.0-20200812112440-f1efaddc27c7
+	github.com/owncloud/ocis-graph-explorer v0.0.0-20200723093006-85a7df32eafb
+	github.com/owncloud/ocis-hello v0.1.0-alpha1
 	github.com/owncloud/ocis-konnectd v0.3.2
-	github.com/owncloud/ocis-migration v0.2.0
+	github.com/owncloud/ocis-migration v0.2.0 // indirect
 	github.com/owncloud/ocis-ocs v0.3.1
 	github.com/owncloud/ocis-phoenix v0.13.0
-	github.com/owncloud/ocis-pkg/v2 v2.4.1-0.20200828095914-d3b859484b2b
-	github.com/owncloud/ocis-proxy v0.7.1-0.20200904132806-fcceec602fcb
+	github.com/owncloud/ocis-pkg/v2 v2.4.1-0.20200902134813-1e87c6173ada
+	github.com/owncloud/ocis-proxy v0.7.0
 	github.com/owncloud/ocis-reva v0.13.0
-	github.com/owncloud/ocis-settings v0.3.2-0.20200902094647-35dc3aeaba78
+	github.com/owncloud/ocis-settings v0.3.2-0.20200828130413-0cc0f5bf26fe
 	github.com/owncloud/ocis-store v0.1.1
 	github.com/owncloud/ocis-thumbnails v0.3.0
 	github.com/owncloud/ocis-webdav v0.1.1
+	github.com/refs/ocis-mono/ocis-accounts v0.1.1
+	github.com/refs/ocis-mono/ocis-migration v0.1.1
 	github.com/refs/pman v0.0.0-20200701173654-f05b8833071a
 	github.com/restic/calens v0.2.0
 	github.com/valyala/fasttemplate v1.2.1 // indirect

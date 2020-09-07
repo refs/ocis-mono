@@ -2,18 +2,19 @@ package command
 
 import (
 	"context"
+	"fmt"
 	"os"
 	"os/signal"
 	"strings"
 
 	"github.com/micro/cli/v2"
 	"github.com/oklog/run"
-	"github.com/owncloud/ocis-accounts/pkg/config"
-	"github.com/owncloud/ocis-accounts/pkg/flagset"
-	"github.com/owncloud/ocis-accounts/pkg/metrics"
-	"github.com/owncloud/ocis-accounts/pkg/server/grpc"
-	"github.com/owncloud/ocis-accounts/pkg/server/http"
-	svc "github.com/owncloud/ocis-accounts/pkg/service/v0"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/config"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/flagset"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/metrics"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/server/grpc"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/server/http"
+	svc "github.com/refs/ocis-mono/ocis-accounts/pkg/service/v0"
 )
 
 // Server is the entry point for the server command.
@@ -34,6 +35,7 @@ func Server(cfg *config.Config) *cli.Command {
 		},
 		Action: func(c *cli.Context) error {
 			logger := NewLogger(cfg)
+			fmt.Printf("\n\nYO!\n\n")
 
 			var (
 				gr          = run.Group{}

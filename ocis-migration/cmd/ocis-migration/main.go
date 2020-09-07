@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/owncloud/ocis-migration/pkg/command"
+	"github.com/refs/ocis-mono/ocis-migration/pkg/command"
 )
 
 func main() {

@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	"github.com/micro/cli/v2"
-	"github.com/owncloud/ocis-migration/pkg/config"
-	"github.com/owncloud/ocis-migration/pkg/flagset"
-	"github.com/owncloud/ocis-migration/pkg/version"
 	"github.com/owncloud/ocis-pkg/v2/log"
+	"github.com/refs/ocis-mono/ocis-migration/pkg/config"
+	"github.com/refs/ocis-mono/ocis-migration/pkg/flagset"
+	"github.com/refs/ocis-mono/ocis-migration/pkg/version"
 	"github.com/spf13/viper"
 )
 

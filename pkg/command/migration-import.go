@@ -4,11 +4,11 @@ package command
 
 import (
 	"github.com/micro/cli/v2"
-	"github.com/owncloud/ocis-migration/pkg/command"
-	toolconfig "github.com/owncloud/ocis-migration/pkg/config"
-	"github.com/owncloud/ocis-migration/pkg/flagset"
-	"github.com/owncloud/ocis/pkg/config"
-	"github.com/owncloud/ocis/pkg/register"
+	"github.com/refs/ocis-mono/ocis-migration/pkg/command"
+	toolconfig "github.com/refs/ocis-mono/ocis-migration/pkg/config"
+	"github.com/refs/ocis-mono/ocis-migration/pkg/flagset"
+	"github.com/refs/ocis-mono/pkg/config"
+	"github.com/refs/ocis-mono/pkg/register"
 )
 
 // ImportCommand is the entrypoint for the accounts command.

@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/micro/cli/v2"
-	"github.com/owncloud/ocis-accounts/pkg/config"
-	"github.com/owncloud/ocis-accounts/pkg/metrics"
 	"github.com/owncloud/ocis-pkg/v2/log"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/config"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/metrics"
 )
 
 // Option defines a single option function.
@@ -14,12 +14,12 @@ type Option func(o *Options)
 
 // Options defines the available options for this package.
 type Options struct {
-	Name      string
-	Logger    log.Logger
-	Context   context.Context
-	Config    *config.Config
-	Metrics   *metrics.Metrics
-	Flags     []cli.Flag
+	Name    string
+	Logger  log.Logger
+	Context context.Context
+	Config  *config.Config
+	Metrics *metrics.Metrics
+	Flags   []cli.Flag
 }
 
 // newOptions initializes the available default options.

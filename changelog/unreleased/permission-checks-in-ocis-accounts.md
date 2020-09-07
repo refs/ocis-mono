@@ -16,6 +16,6 @@ https://github.com/owncloud/ocis-settings/pull/67
 https://github.com/owncloud/ocis-settings/pull/69
 https://github.com/owncloud/ocis-proxy/pull/95
 https://github.com/owncloud/ocis-pkg/pull/59
-https://github.com/owncloud/ocis-accounts/pull/95
+https://wgithub.com/owncloud/ocis-accounts/pull/95
 https://github.com/owncloud/ocis-accounts/pull/100
 https://github.com/owncloud/ocis-accounts/pull/102

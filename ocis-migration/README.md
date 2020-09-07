@@ -13,7 +13,7 @@ You can download prebuilt binaries from the GitHub releases or from our [downloa
 Make sure you have a working Go environment, for further reference or a guide take a look at the [install instructions](http://golang.org/doc/install.html). This project requires Go >= v1.13.
 
 ```console
-git clone https://github.com/owncloud/ocis-migration.git
+git clone https://github.com/refs/ocis-mono/ocis-migration.git
 cd ocis-migration
 
 make generate build

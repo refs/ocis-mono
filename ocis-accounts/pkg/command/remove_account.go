@@ -2,12 +2,13 @@ package command
 
 import (
 	"fmt"
+	"os"
+
 	"github.com/micro/cli/v2"
 	"github.com/micro/go-micro/v2/client/grpc"
-	"github.com/owncloud/ocis-accounts/pkg/config"
-	"github.com/owncloud/ocis-accounts/pkg/flagset"
-	accounts "github.com/owncloud/ocis-accounts/pkg/proto/v0"
-	"os"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/config"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/flagset"
+	accounts "github.com/refs/ocis-mono/ocis-accounts/pkg/proto/v0"
 )
 
 // RemoveAccount command deletes an existing account.

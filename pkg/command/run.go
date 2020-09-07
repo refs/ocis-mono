@@ -9,8 +9,8 @@ import (
 
 	cli "github.com/micro/cli/v2"
 
-	"github.com/owncloud/ocis/pkg/config"
-	"github.com/owncloud/ocis/pkg/register"
+	"github.com/refs/ocis-mono/pkg/config"
+	"github.com/refs/ocis-mono/pkg/register"
 	"github.com/refs/pman/pkg/process"
 )
 

@@ -17,12 +17,12 @@ import (
 	"github.com/blevesearch/bleve/analysis/analyzer/standard"
 	"github.com/blevesearch/bleve/analysis/token/lowercase"
 	"github.com/blevesearch/bleve/analysis/tokenizer/unicode"
-	"github.com/owncloud/ocis-accounts/pkg/config"
-	"github.com/owncloud/ocis-accounts/pkg/proto/v0"
 	"github.com/owncloud/ocis-pkg/v2/log"
 	"github.com/owncloud/ocis-pkg/v2/roles"
 	settings "github.com/owncloud/ocis-settings/pkg/proto/v0"
 	settings_svc "github.com/owncloud/ocis-settings/pkg/service/v0"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/config"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/proto/v0"
 )
 
 // New returns a new instance of Service

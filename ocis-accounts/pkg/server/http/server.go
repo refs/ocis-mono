@@ -5,15 +5,15 @@ import (
 
 	"github.com/go-chi/chi"
 	mclient "github.com/micro/go-micro/v2/client"
-	"github.com/owncloud/ocis-accounts/pkg/assets"
-	"github.com/owncloud/ocis-accounts/pkg/proto/v0"
-	svc "github.com/owncloud/ocis-accounts/pkg/service/v0"
-	"github.com/owncloud/ocis-accounts/pkg/version"
 	"github.com/owncloud/ocis-pkg/v2/account"
 	"github.com/owncloud/ocis-pkg/v2/middleware"
 	"github.com/owncloud/ocis-pkg/v2/roles"
 	"github.com/owncloud/ocis-pkg/v2/service/http"
 	settings "github.com/owncloud/ocis-settings/pkg/proto/v0"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/assets"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/proto/v0"
+	svc "github.com/refs/ocis-mono/ocis-accounts/pkg/service/v0"
+	"github.com/refs/ocis-mono/ocis-accounts/pkg/version"
 )
 
 // Server initializes the http service and server.
