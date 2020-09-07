@@ -37,7 +37,7 @@ require (
 	github.com/owncloud/ocis-store v0.1.1
 	github.com/owncloud/ocis-thumbnails v0.3.0
 	github.com/owncloud/ocis-webdav v0.1.1
-	github.com/refs/ocis-mono/ocis-accounts v0.1.2
+	github.com/refs/ocis-mono/ocis-accounts v0.1.3
 	github.com/refs/ocis-mono/ocis-migration v0.1.2
 	github.com/refs/pman v0.0.0-20200701173654-f05b8833071a
 	github.com/restic/calens v0.2.0
