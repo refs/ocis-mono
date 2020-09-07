@@ -1,7 +1,6 @@
 package config
 
 import (
-	accounts "github.com/owncloud/ocis-accounts/pkg/config"
 	glauth "github.com/owncloud/ocis-glauth/pkg/config"
 	graphExplorer "github.com/owncloud/ocis-graph-explorer/pkg/config"
 	graph "github.com/owncloud/ocis-graph/pkg/config"
@@ -15,6 +14,7 @@ import (
 	store "github.com/owncloud/ocis-store/pkg/config"
 	thumbnails "github.com/owncloud/ocis-thumbnails/pkg/config"
 	webdav "github.com/owncloud/ocis-webdav/pkg/config"
+	accounts "github.com/refs/ocis-mono/ocis-accounts/pkg/config"
 	pman "github.com/refs/pman/pkg/config"
 )
 

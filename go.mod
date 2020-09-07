@@ -21,7 +21,7 @@ require (
 	github.com/nsf/termbox-go v0.0.0-20200418040025-38ba6e5628f1 // indirect
 	github.com/openzipkin/zipkin-go v0.2.2
 	github.com/owncloud/flaex v0.2.0
-	github.com/owncloud/ocis-accounts v0.4.2-0.20200828150703-2ca83cf4ac20
+	github.com/owncloud/ocis-accounts v0.4.2-0.20200828150703-2ca83cf4ac20 // indirect
 	github.com/owncloud/ocis-glauth v0.5.0
 	github.com/owncloud/ocis-graph v0.0.0-20200812112440-f1efaddc27c7
 	github.com/owncloud/ocis-graph-explorer v0.0.0-20200723093006-85a7df32eafb
@@ -30,15 +30,15 @@ require (
 	github.com/owncloud/ocis-migration v0.2.0 // indirect
 	github.com/owncloud/ocis-ocs v0.3.1
 	github.com/owncloud/ocis-phoenix v0.13.0
-	github.com/owncloud/ocis-pkg/v2 v2.4.1-0.20200902134813-1e87c6173ada
+	github.com/owncloud/ocis-pkg/v2 v2.4.1-0.20200902152028-72d605ba3857
 	github.com/owncloud/ocis-proxy v0.7.0
 	github.com/owncloud/ocis-reva v0.13.0
 	github.com/owncloud/ocis-settings v0.3.2-0.20200828130413-0cc0f5bf26fe
 	github.com/owncloud/ocis-store v0.1.1
 	github.com/owncloud/ocis-thumbnails v0.3.0
 	github.com/owncloud/ocis-webdav v0.1.1
-	github.com/refs/ocis-mono/ocis-accounts v0.1.1
-	github.com/refs/ocis-mono/ocis-migration v0.1.1
+	github.com/refs/ocis-mono/ocis-accounts v0.1.2
+	github.com/refs/ocis-mono/ocis-migration v0.1.2
 	github.com/refs/pman v0.0.0-20200701173654-f05b8833071a
 	github.com/restic/calens v0.2.0
 	github.com/valyala/fasttemplate v1.2.1 // indirect
@@ -54,3 +54,5 @@ require (
 replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
 
 replace github.com/gomodule/redigo => github.com/gomodule/redigo v1.8.2
+
+replace github.com/refs/ocis-mono/ocis-accounts v0.1.2 => ./ocis-accounts
