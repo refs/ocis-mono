@@ -35,7 +35,7 @@ func Server(cfg *config.Config) *cli.Command {
 		},
 		Action: func(c *cli.Context) error {
 			logger := NewLogger(cfg)
-			fmt.Printf("\n\nYO!\n\n")
+			fmt.Printf("\n\nversion 0.1.3\n\n")
 
 			var (
 				gr          = run.Group{}

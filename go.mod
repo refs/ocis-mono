@@ -54,5 +54,3 @@ require (
 replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
 
 replace github.com/gomodule/redigo => github.com/gomodule/redigo v1.8.2
-
-replace github.com/refs/ocis-mono/ocis-accounts v0.1.2 => ./ocis-accounts
