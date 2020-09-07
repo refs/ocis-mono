@@ -1,4 +1,4 @@
-module github.com/owncloud/ocis-migration
+module github.com/refs/ocis-mono/ocis-migration
 
 go 1.13
 
